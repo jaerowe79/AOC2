@@ -11,11 +11,12 @@
 
 @implementation VampireCostume
 
--(void)setAttributes
+-(id)init
 {
-    undead = true;
-    costumeName = @"Vampire";
-    costumeType = COSTUMETYPE_VAMPIRE;
+    if (self = [super init])
+    {
+        [self SetAttributes:COSTUMETYPE_VAMPIRE name:@"Vampire" isUndead:true];
+    }
+    return self;
 }
-
 @end

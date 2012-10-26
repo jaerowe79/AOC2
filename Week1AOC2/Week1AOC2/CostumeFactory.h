@@ -16,10 +16,14 @@ typedef enum {
 
 @interface CostumeFactory : NSObject
 {
+@protected
     ECostumeType costumeType;
     NSString *costumeName;
     
     bool undead;
 }
+
+-(void)setAttributes:(ECostumeType)type name:(NSString*)name isUndead:(bool)isUndead;
+
 
 @end

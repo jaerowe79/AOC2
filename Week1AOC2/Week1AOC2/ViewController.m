@@ -23,7 +23,7 @@
     VampireCostume *vampireCostume = [[VampireCostume alloc] init];
     if (vampireCostume != nil)
     {
-        [vampireCostume setAttributes];
+        
     }
     
     [super viewDidLoad];

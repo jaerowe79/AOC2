@@ -11,7 +11,6 @@
 
 @interface VampireCostume : CostumeFactory
 
--(void)setAttributes;
 
 
 @end

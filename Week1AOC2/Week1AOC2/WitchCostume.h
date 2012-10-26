@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CostumeFactory.h"
 
-@interface WitchCostume : NSObject
+
+@interface WitchCostume : CostumeFactory
 
 @end

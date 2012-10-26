@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CostumeFactory.h"
 
-@interface ZombieCostume : NSObject
+
+@interface ZombieCostume : CostumeFactory
 
 @end

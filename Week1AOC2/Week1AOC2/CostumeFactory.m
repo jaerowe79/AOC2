@@ -13,8 +13,13 @@
 
 @implementation CostumeFactory
 
+-(void)setAttributes:(ECostumeType)type name:(NSString*)name undead:(bool)isUndead
+
 {
-    
+        undead = isUndead;
+        costumeName = name;
+        costumeType = type;
+
 }
 
 
