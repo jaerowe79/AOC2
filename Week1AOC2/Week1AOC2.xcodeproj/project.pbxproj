@@ -19,6 +19,7 @@
 		3AA949C0163A105500CF7151 /* WitchCostume.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA949BF163A105500CF7151 /* WitchCostume.m */; };
 		3AA949C3163A106900CF7151 /* ZombieCostume.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA949C2163A106900CF7151 /* ZombieCostume.m */; };
 		3AA949C6163A107A00CF7151 /* VampireCostume.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA949C5163A107A00CF7151 /* VampireCostume.m */; };
+		3AA949CC163A6AF000CF7151 /* CostumeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA949CB163A6AF000CF7151 /* CostumeClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,8 @@
 		3AA949C2163A106900CF7151 /* ZombieCostume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZombieCostume.m; sourceTree = "<group>"; };
 		3AA949C4163A107A00CF7151 /* VampireCostume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VampireCostume.h; sourceTree = "<group>"; };
 		3AA949C5163A107A00CF7151 /* VampireCostume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VampireCostume.m; sourceTree = "<group>"; };
+		3AA949CA163A6AF000CF7151 /* CostumeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CostumeClass.h; sourceTree = "<group>"; };
+		3AA949CB163A6AF000CF7151 /* CostumeClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CostumeClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 				3AA949BF163A105500CF7151 /* WitchCostume.m */,
 				3AA949C1163A106900CF7151 /* ZombieCostume.h */,
 				3AA949C2163A106900CF7151 /* ZombieCostume.m */,
+				3AA949CA163A6AF000CF7151 /* CostumeClass.h */,
+				3AA949CB163A6AF000CF7151 /* CostumeClass.m */,
 			);
 			path = Week1AOC2;
 			sourceTree = "<group>";
@@ -188,6 +193,7 @@
 				3AA949C0163A105500CF7151 /* WitchCostume.m in Sources */,
 				3AA949C3163A106900CF7151 /* ZombieCostume.m in Sources */,
 				3AA949C6163A107A00CF7151 /* VampireCostume.m in Sources */,
+				3AA949CC163A6AF000CF7151 /* CostumeClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

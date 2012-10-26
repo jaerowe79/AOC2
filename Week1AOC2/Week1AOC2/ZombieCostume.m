@@ -24,7 +24,7 @@
 -(void)printName
 {
     [super printName];
-    NSLog(@"The name of this costume is=%@", costumeName);
+    NSLog(@"The name of this costume is=%@", costumeName, @" and the price is=%@", costumePrice);
 }
 
 @end

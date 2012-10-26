@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CostumeClass.h"
 
 typedef enum {
     COSTUMETYPE_VAMPIRE=0,
@@ -25,14 +26,14 @@ typedef enum {
 @protected
     ECostumeType costumeType;
     NSString *costumeName;
-    
-    bool undead;
+    ECostumePrice costumePrice;
+    bool undead
 }
 
 -(void)setAttributes:(ECostumeType)type name:(NSString*)name isUndead:(bool)isUndead;
 
 -(void)printName;
 
--(CostumeFactory*)GetCostumePrice:(int)costumeType;
++(CostumeClass*)GetCostumePrice:(int)costumeType;
 
 @end

@@ -37,6 +37,15 @@
     {
         [zombieCostume printName];
     }
+    CostumeFactory *costumeFactory = [[CostumeFactory alloc] init];
+    if (costumeFactory != nil)
+    {
+        CostumeClass *vampire = [costumeFactory GetCostume:VAMPIRE];
+        if (vampire != nil)
+        {
+        [vampire printName];
+        }
+    }
     
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
