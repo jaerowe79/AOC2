@@ -14,6 +14,12 @@ typedef enum {
     COSTUMETYPE_ZOMBIE
 } ECostumeType;
 
+typedef enum {
+    VAMPIRE=12,
+    WITCH=19,
+    ZOMBIE=29
+} ECostumePrice;
+
 @interface CostumeFactory : NSObject
 {
 @protected
@@ -26,5 +32,7 @@ typedef enum {
 -(void)setAttributes:(ECostumeType)type name:(NSString*)name isUndead:(bool)isUndead;
 
 -(void)printName;
+
+-(CostumeFactory*)GetCostumePrice:(int)
 
 @end
