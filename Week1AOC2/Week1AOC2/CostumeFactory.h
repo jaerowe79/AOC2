@@ -33,6 +33,6 @@ typedef enum {
 
 -(void)printName;
 
--(CostumeFactory*)GetCostumePrice:(int)
+-(CostumeFactory*)GetCostumePrice:(int)costumeType;
 
 @end
