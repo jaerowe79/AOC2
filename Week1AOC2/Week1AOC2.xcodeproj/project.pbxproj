@@ -15,6 +15,10 @@
 		3AA949AF163A0EE400CF7151 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA949AE163A0EE400CF7151 /* AppDelegate.m */; };
 		3AA949B2163A0EE400CF7151 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA949B1163A0EE400CF7151 /* ViewController.m */; };
 		3AA949B5163A0EE400CF7151 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AA949B3163A0EE400CF7151 /* ViewController.xib */; };
+		3AA949BD163A103400CF7151 /* CostumeFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA949BC163A103400CF7151 /* CostumeFactory.m */; };
+		3AA949C0163A105500CF7151 /* WitchCostume.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA949BF163A105500CF7151 /* WitchCostume.m */; };
+		3AA949C3163A106900CF7151 /* ZombieCostume.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA949C2163A106900CF7151 /* ZombieCostume.m */; };
+		3AA949C6163A107A00CF7151 /* VampireCostume.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA949C5163A107A00CF7151 /* VampireCostume.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,14 @@
 		3AA949B0163A0EE400CF7151 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3AA949B1163A0EE400CF7151 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3AA949B4163A0EE400CF7151 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		3AA949BB163A103400CF7151 /* CostumeFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CostumeFactory.h; sourceTree = "<group>"; };
+		3AA949BC163A103400CF7151 /* CostumeFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CostumeFactory.m; sourceTree = "<group>"; };
+		3AA949BE163A105500CF7151 /* WitchCostume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WitchCostume.h; sourceTree = "<group>"; };
+		3AA949BF163A105500CF7151 /* WitchCostume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WitchCostume.m; sourceTree = "<group>"; };
+		3AA949C1163A106900CF7151 /* ZombieCostume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZombieCostume.h; sourceTree = "<group>"; };
+		3AA949C2163A106900CF7151 /* ZombieCostume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZombieCostume.m; sourceTree = "<group>"; };
+		3AA949C4163A107A00CF7151 /* VampireCostume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VampireCostume.h; sourceTree = "<group>"; };
+		3AA949C5163A107A00CF7151 /* VampireCostume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VampireCostume.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +95,12 @@
 				3AA949B1163A0EE400CF7151 /* ViewController.m */,
 				3AA949B3163A0EE400CF7151 /* ViewController.xib */,
 				3AA949A5163A0EE400CF7151 /* Supporting Files */,
+				3AA949BB163A103400CF7151 /* CostumeFactory.h */,
+				3AA949BC163A103400CF7151 /* CostumeFactory.m */,
+				3AA949BE163A105500CF7151 /* WitchCostume.h */,
+				3AA949BF163A105500CF7151 /* WitchCostume.m */,
+				3AA949C1163A106900CF7151 /* ZombieCostume.h */,
+				3AA949C2163A106900CF7151 /* ZombieCostume.m */,
 			);
 			path = Week1AOC2;
 			sourceTree = "<group>";
@@ -94,6 +112,8 @@
 				3AA949A7163A0EE400CF7151 /* InfoPlist.strings */,
 				3AA949AA163A0EE400CF7151 /* main.m */,
 				3AA949AC163A0EE400CF7151 /* Week1AOC2-Prefix.pch */,
+				3AA949C4163A107A00CF7151 /* VampireCostume.h */,
+				3AA949C5163A107A00CF7151 /* VampireCostume.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -164,6 +184,10 @@
 				3AA949AB163A0EE400CF7151 /* main.m in Sources */,
 				3AA949AF163A0EE400CF7151 /* AppDelegate.m in Sources */,
 				3AA949B2163A0EE400CF7151 /* ViewController.m in Sources */,
+				3AA949BD163A103400CF7151 /* CostumeFactory.m in Sources */,
+				3AA949C0163A105500CF7151 /* WitchCostume.m in Sources */,
+				3AA949C3163A106900CF7151 /* ZombieCostume.m in Sources */,
+				3AA949C6163A107A00CF7151 /* VampireCostume.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
