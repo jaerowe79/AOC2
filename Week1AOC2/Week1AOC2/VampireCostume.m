@@ -21,6 +21,8 @@
 }
 -(void)printName
 {
+    [super printName];
+
     NSLog(@"The name of this costume is=%@", costumeName);
 
 }
