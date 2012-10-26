@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  AOC2week1
+//  Week1AOC2
 //
-//  Created by Janis Jae on 10/22/12.
+//  Created by Janis Jae on 10/25/12.
 //  Copyright (c) 2012 Janis Jae. All rights reserved.
 //
 
