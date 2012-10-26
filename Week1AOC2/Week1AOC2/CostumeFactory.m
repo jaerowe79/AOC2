@@ -7,7 +7,15 @@
 //
 
 #import "CostumeFactory.h"
+#import "VampireCostume.h"
+#import "WitchCostume.h"
+#import "ZombieCostume.h"
 
 @implementation CostumeFactory
+
+{
+    
+}
+
 
 @end

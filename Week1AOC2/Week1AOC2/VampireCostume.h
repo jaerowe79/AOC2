@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CostumeFactory.h"
 
-@interface VampireCostume : NSObject
+@interface VampireCostume : CostumeFactory
+
+-(void)setAttributes;
+
 
 @end

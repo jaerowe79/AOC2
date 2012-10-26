@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "CostumeFactory.h"
+#import "VampireCostume.h"
+
 
 @interface ViewController ()
 
@@ -16,8 +19,16 @@
 
 - (void)viewDidLoad
 {
+    
+    VampireCostume *vampireCostume = [[VampireCostume alloc] init];
+    if (vampireCostume != nil)
+    {
+        [vampireCostume setAttributes];
+    }
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+   
 }
 
 - (void)viewDidUnload

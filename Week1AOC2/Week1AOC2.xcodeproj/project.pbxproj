@@ -90,6 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				3AA949AD163A0EE400CF7151 /* AppDelegate.h */,
+				3AA949C4163A107A00CF7151 /* VampireCostume.h */,
+				3AA949C5163A107A00CF7151 /* VampireCostume.m */,
 				3AA949AE163A0EE400CF7151 /* AppDelegate.m */,
 				3AA949B0163A0EE400CF7151 /* ViewController.h */,
 				3AA949B1163A0EE400CF7151 /* ViewController.m */,
@@ -112,8 +114,6 @@
 				3AA949A7163A0EE400CF7151 /* InfoPlist.strings */,
 				3AA949AA163A0EE400CF7151 /* main.m */,
 				3AA949AC163A0EE400CF7151 /* Week1AOC2-Prefix.pch */,
-				3AA949C4163A107A00CF7151 /* VampireCostume.h */,
-				3AA949C5163A107A00CF7151 /* VampireCostume.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";

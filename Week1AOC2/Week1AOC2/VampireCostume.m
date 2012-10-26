@@ -7,7 +7,15 @@
 //
 
 #import "VampireCostume.h"
+#import "CostumeFactory.h"
 
 @implementation VampireCostume
+
+-(void)setAttributes
+{
+    undead = true;
+    costumeName = @"Vampire";
+    costumeType = COSTUMETYPE_VAMPIRE;
+}
 
 @end

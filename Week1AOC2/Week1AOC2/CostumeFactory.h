@@ -8,6 +8,18 @@
 
 #import <Foundation/Foundation.h>
 
+typedef enum {
+    COSTUMETYPE_VAMPIRE=0,
+    COSTUMETYPE_WITCH,
+    COSTUMETYPE_ZOMBIE
+} ECostumeType;
+
 @interface CostumeFactory : NSObject
+{
+    ECostumeType costumeType;
+    NSString *costumeName;
+    
+    bool undead;
+}
 
 @end
