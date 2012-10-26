@@ -7,7 +7,22 @@
 //
 
 #import "WitchCostume.h"
+#import "CostumeFactory.h"
+
 
 @implementation WitchCostume
 
+-(id)init
+{
+    if (self = [super init])
+    {
+        [self SetAttributes:COSTUMETYPE_WITCH name:@"Witch" isUndead:false];
+    }
+    return self;
+}
+
+-(void)printName
+{
+    
+}
 @end

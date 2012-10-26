@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "CostumeFactory.h"
 #import "VampireCostume.h"
+#import "WitchCostume.h"
+#import "ZombieCostume.h"
 
 
 @interface ViewController ()
@@ -23,7 +25,17 @@
     VampireCostume *vampireCostume = [[VampireCostume alloc] init];
     if (vampireCostume != nil)
     {
-        
+        [vampireCostume printName];
+    }
+    WitchCostume *witchCostume = [[WitchCostume alloc] init];
+    if (witchCostume != nil)
+    {
+        [witchCostume printName];
+    }
+    ZombieCostume *zombieCostume = [[ZombieCostume alloc] init];
+    if (zombieCostume != nil)
+    {
+        [zombieCostume printName];
     }
     
     [super viewDidLoad];

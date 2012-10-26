@@ -7,7 +7,23 @@
 //
 
 #import "ZombieCostume.h"
+#import "CostumeFactory.h"
+
 
 @implementation ZombieCostume
+
+-(id)init
+{
+    if (self = [super init])
+    {
+        [self SetAttributes:COSTUMETYPE_ZOMBIE name:@"Zombie" isUndead:true];
+    }
+    return self;
+}
+
+-(void)printName
+{
+    NSLog(@"The name of this costume is=%@", costumeName);
+}
 
 @end

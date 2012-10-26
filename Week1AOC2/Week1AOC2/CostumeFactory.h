@@ -25,5 +25,6 @@ typedef enum {
 
 -(void)setAttributes:(ECostumeType)type name:(NSString*)name isUndead:(bool)isUndead;
 
+-(void)printName;
 
 @end

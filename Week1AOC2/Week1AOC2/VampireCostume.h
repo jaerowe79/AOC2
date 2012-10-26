@@ -12,5 +12,4 @@
 @interface VampireCostume : CostumeFactory
 
 
-
 @end

@@ -22,5 +22,9 @@
 
 }
 
+-(void)printName
+{
+    NSLog(@"Name=%@", costumeName);
+}
 
 @end
