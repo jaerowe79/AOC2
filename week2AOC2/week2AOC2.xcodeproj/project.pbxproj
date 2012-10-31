@@ -17,6 +17,7 @@
 		3A8C83541640B93F004DE05C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A8C83521640B93F004DE05C /* ViewController.xib */; };
 		3A8C835B1640B9F3004DE05C /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A8C835A1640B9F3004DE05C /* SecondView.xib */; };
 		3A8C835E1640BA5E004DE05C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8C835D1640BA5E004DE05C /* SecondViewController.m */; };
+		3A8C83601640DB56004DE05C /* 579513_10150842706067745_631780272_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A8C835F1640DB56004DE05C /* 579513_10150842706067745_631780272_n.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		3A8C835A1640B9F3004DE05C /* SecondView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
 		3A8C835C1640BA5E004DE05C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		3A8C835D1640BA5E004DE05C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3A8C835F1640DB56004DE05C /* 579513_10150842706067745_631780272_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 579513_10150842706067745_631780272_n.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		3A8C83431640B93F004DE05C /* week2AOC2 */ = {
 			isa = PBXGroup;
 			children = (
+				3A8C835F1640DB56004DE05C /* 579513_10150842706067745_631780272_n.jpg */,
 				3A8C834C1640B93F004DE05C /* AppDelegate.h */,
 				3A8C834D1640B93F004DE05C /* AppDelegate.m */,
 				3A8C834F1640B93F004DE05C /* ViewController.h */,
@@ -160,6 +163,7 @@
 				3A8C83481640B93F004DE05C /* InfoPlist.strings in Resources */,
 				3A8C83541640B93F004DE05C /* ViewController.xib in Resources */,
 				3A8C835B1640B9F3004DE05C /* SecondView.xib in Resources */,
+				3A8C83601640DB56004DE05C /* 579513_10150842706067745_631780272_n.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
