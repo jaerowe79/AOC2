@@ -19,8 +19,9 @@
 
 -(IBAction)onClick:(id)sender
 {
-    
+    [self dismissViewControllerAnimated:TRUE completion:nil];
 }
+
 
 
 - (void)viewDidLoad
