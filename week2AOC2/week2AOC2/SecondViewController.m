@@ -23,6 +23,13 @@
     return self;
 }
 
+
+-(IBAction)onClick:(id)sender
+{
+    
+}
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];

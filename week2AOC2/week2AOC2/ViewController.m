@@ -7,12 +7,22 @@
 //
 
 #import "ViewController.h"
+#import "SecondViewController.h"
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+
+-(IBAction)onClick:(id)sender
+{
+    SecondViewController *secondView = [[SecondViewController alloc] initWithNibName: @"SecondView" bundle:nil];
+    if (secondView != nil)
+    {
+        [self presentModalViewController:secondView animated:true];
+    }
+}
 
 - (void)viewDidLoad
 {
