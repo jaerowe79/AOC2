@@ -24,6 +24,16 @@
     }
 }
 
+-(IBAction)onChange:(id)sender
+{
+    UISegmentedControl *segmentControl = (UISegmentedControl*)sender;
+    if (segmentControl != nil)
+    {
+        int selectedIndex = segmentControl.selectedSegmentIndex;
+        
+        label.text =[NSString stringWithFormat:@"Selected index %d", selectedIndex];
+    }
+}
 
 - (void)viewDidAppear:(BOOL)animated
 {

@@ -12,9 +12,11 @@
 @interface ViewController : UIViewController
 {
     IBOutlet UISwitch *switchOne;
+    IBOutlet UILabel *label;
     
 }
 
+-(IBAction)onChange:(id)sender;
 
 -(IBAction)onClick:(id)sender;
 
