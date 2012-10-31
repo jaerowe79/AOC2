@@ -16,6 +16,14 @@
 
 @implementation SecondViewController
 
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        //custom initialization
+    }
+    return self;
+}
 
 -(IBAction)onClick:(id)sender
 {
