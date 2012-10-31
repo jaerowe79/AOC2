@@ -7,21 +7,14 @@
 //
 
 #import "SecondViewController.h"
+#import "ViewController.h"
+
 
 @interface SecondViewController ()
 
 @end
 
 @implementation SecondViewController
-
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
 
 
 -(IBAction)onClick:(id)sender
