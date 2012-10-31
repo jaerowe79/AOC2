@@ -11,12 +11,13 @@
 
 @interface ViewController : UIViewController
 {
-    
+    IBOutlet UISwitch *switchOne;
     
 }
 
 
 -(IBAction)onClick:(id)sender;
 
+-(IBAction)onSwitched:(id)sender;
 
 @end

@@ -24,6 +24,14 @@
     }
 }
 
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    switchOne.on = false;
+ 
+    [super viewDidAppear:animated];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
