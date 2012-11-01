@@ -114,7 +114,7 @@
     }
 }
 
-- (IBAction) equalsbutton {
+- (void) equalsbutton:(id)sender {
     NSString *val = display.text;
     switch(operation) {
         case Plus :
