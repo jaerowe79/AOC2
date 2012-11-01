@@ -9,23 +9,20 @@
 #import <UIKit/UIKit.h>
 #import "SecondViewController.h"
 
+typedef enum{Plus} CalcOperation;
+
 @interface ViewController : UIViewController
 {
-    IBOutlet UISwitch *switchOne;
-    IBOutlet UILabel *label;
-    IBOutlet UISegmentedControl *changeBackgroundColor;
-    int backgroundColor;
-    
+    IBOutlet UISwitch *onSwitch; // on/off switch
+    IBOutlet UITextField *display;  // calculator display
+    int mySum; // sum of numbers
+    int myNum; // number entered
+    NSString *storage;
+    CalcOperation operation;
 }
 
-typedef enum
-{
-    PINK,
-    BLUE,
-    GREEN
-}backgroundColor;
 
-// value changed response
+// value changed response for segment control 
 -(IBAction)onChange:(id)sender;
 
 // click response
@@ -34,16 +31,16 @@ typedef enum
 // switch
 -(IBAction)onSwitched:(id)sender;
 
-//clear button
--(IBAction)clearPressed;
+//number key pressed
+- (IBAction)numberPressed:(id)sender;
 
-//equal button
-- (IBAction)equalsPressed;
+// clear button pressed
+- (IBAction)clearPressed:(id)sender;
 
-//plus button
-- (IBAction)calculatePressed:(id)sender;
+// add button pressed
+- (IBAction)addOperation:(id)sender;
 
-// numbers buttons
-- (IBAction)numberPressed:(UIButton *)sender;
+// equals button pressed
+- (IBAction)equalsButton:(id)sender;
 
 @end
