@@ -51,7 +51,7 @@
     {
         if (oneSwitch.on)
         {
-            display.text = @"0";
+            display.text = @"0"; // default display and values
             mySum = 0;
             myNum = 0;
         }
@@ -71,15 +71,15 @@
         int selectedIndex = segmentControl.selectedSegmentIndex;
         if (selectedIndex == 0)
         {
-            self.view.backgroundColor = [UIColor colorWithRed:0.961 green:0.271 blue:0.545 alpha:1]; /*#f5458b*/
+            self.view.backgroundColor = [UIColor colorWithRed:0.961 green:0.271 blue:0.545 alpha:1]; /*#f5458b*/ // first segment pink background
         }
         else if (selectedIndex == 1)
         {
-            self.view.backgroundColor = [UIColor colorWithRed:0.271 green:0.616 blue:0.961 alpha:1]; /*#459df5*/
-        }
+            self.view.backgroundColor = [UIColor colorWithRed:0.271 green:0.616 blue:0.961 alpha:1]; /*#459df5*/  // second segment blue background 
+        } 
         else if (selectedIndex == 2)
         {
-            self.view.backgroundColor = [UIColor colorWithRed:0.251 green:0.871 blue:0.325 alpha:1]; /*#40de53*/
+            self.view.backgroundColor = [UIColor colorWithRed:0.251 green:0.871 blue:0.325 alpha:1]; /*#40de53*/  // third segment green background 
         }
         else
         {
@@ -96,21 +96,21 @@
         UIButton *num = (UIButton*)sender;
         if (num != nil)
         {
-            myNum = num.tag;
-            display.text = [display.text stringByAppendingFormat:@"%d", myNum];
+            myNum = num.tag; //stores number pressed 
+            display.text = [display.text stringByAppendingFormat:@"%d", myNum]; 
         }
     }
 }
 
 
 // plus key pressed
--(IBAction)addOperation:(id)sender
+-(void)addOperation:(id)sender
 {
     if (onSwitch.on != false) // verifies calculator on
     {
-        operation = Plus;
+        operation = Plus;  
         storage = display.text;
-        display.text=@"";
+        display.text=@""; // clears screen between numbers entered in operation
     }
 }
 
@@ -118,7 +118,7 @@
     NSString *val = display.text;
     switch(operation) {
         case Plus :
-            display.text= [NSString stringWithFormat:@"%qi", [val longLongValue]+[storage longLongValue]];
+            display.text= [NSString stringWithFormat:@"%qi", [val longLongValue]+[storage longLongValue]];  //should add numbers together once equal pressed 
             break;
     }
 }

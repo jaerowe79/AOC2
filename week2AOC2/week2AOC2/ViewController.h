@@ -41,6 +41,6 @@ typedef enum{Plus} CalcOperation;
 - (IBAction)addOperation:(id)sender;
 
 // equals button pressed
-- (void)equalsButton:(id)sender;
+- (IBAction)equalsButton:(id)sender;
 
 @end
